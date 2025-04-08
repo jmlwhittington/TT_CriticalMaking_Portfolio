@@ -15,7 +15,7 @@ Prior, I'd only been exposed to anything like this via [critical game design](ht
 
 As I've learned throughout the Spring 2025 semester, however, there's plenty we all do throughout our lives that arguably fall into this definition, and much more which could with only minor tweaks. Texts like Sasha Costanza-Chock's [*Design Justice: Community-Led Practices to Build the Worlds We Need*](https://designjustice.mitpress.mit.edu/) helped with this by providing a framework for translating our making process into tangible, just outcomes.
 
-In the sidebar—and especially at the [Projects](https://jmlwhittington.github.io/TT_CriticalMaking_Portfolio/Projects/) page where you'll find more in-depth descriptions—you'll find a series of examples I created as a result of this course exposing me to critical making. Hopefully something inspires you onto a similar project of your own!
+In the sidebar—and especially at the [Projects](https://jmlwhittington.github.io/TT_CriticalMaking_Portfolio/Projects/) page, which has more in-depth descriptions—you'll find a series of examples I created as a result of this course exposing me to critical making. Hopefully something inspires you onto a similar project of your own!
 
 ## About me
 Hello! While I publish/present under J. M. L. Whittington, you may call me Justin (he/they). I was born and raised in West Virginia, only recently moving to Orlando, Florida to enter the [Texts and Technology PhD program ](https://cah.ucf.edu/textstech/) at University of Central Florida as a student.
