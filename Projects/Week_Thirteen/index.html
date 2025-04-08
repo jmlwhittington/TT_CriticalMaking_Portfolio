@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Battleship on Foot</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      text-align: center;
+      max-width: 800px;
+      margin: 40px auto;
+    }
+    canvas {
+      display: block;
+      margin: 20px auto;
+    }
+  </style>
+  <style>
+	.center-button {
+	  position: fixed;
+	  bottom: 20px;
+	  left: 50%;                /* Start at center */
+	  transform: translateX(-50%); /* Offset half its width */
+	  padding: 10px 20px;
+	  background-color: black;
+	  color: white;
+	  border: 2px solid black;
+	  text-decoration: none;
+	  font-family: sans-serif;
+	  font-weight: bold;
+	  z-index: 999999;
+	}
+    .center-button:hover {
+	  background-color: #808080;
+	}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Battleship on Foot</h1>
+    <p>
+      A reimagining of board game <em>Battleship</em>, but with moving targets and a secret message.
+    </p>
+    <div id="sketch-container"></div>
+    <script src="sketch.js"></script>
+  </div>
+  <a href="https://jmlwhittington.github.io/TT_CriticalMaking_Portfolio/Projects/" class="center-button">Go back</a>
+</body>
+</html>
