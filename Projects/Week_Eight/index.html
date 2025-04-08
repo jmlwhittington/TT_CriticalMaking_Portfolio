@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<!-- saved from url=(0059)https://iloveepoetry.org/creative/tracery2htmltemplate.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>ENG6819: Critical Making for Humanist Scholarship - JMLW's Tracery Generator</title>
+    
+    <meta name="description" content="Colorless green ideas sleep furiously ... The real symbol imposes the smoothing speed ... The glocky kuzdra shteckly budled the bocker and is kurdyaking the bockerling">
+	<meta name="author" content="J. M. L. Whittington">
+<!--
+Tracery to HTML Template
+
+Copyright 2023 Leonardo Flores
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+-->
+<!-- 
+Enter credits or author's statement here.
+-->
+<link href='https://fonts.googleapis.com/css?family=Noto Sans' rel='stylesheet'>
+<style>
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        height: 100vh;
+        font-family: 'Noto Sans';
+		color: #333333;
+        margin: 0;
+        padding: 0;
+        background-color: #F5F5F5;
+    }
+    
+    #title-container {
+        width: 100%;
+        text-align: center;
+        max-height: 300px;
+		font-size: 4em;
+    }
+	
+	#subtitle-container {
+        width: 100%;
+        text-align: center;
+        max-height: 300px;
+		color: #800020;
+    }
+    
+    @media (max-width: 600px) {
+        #title-container {
+            max-height: 200px;
+        }
+        
+        #text-container {
+            width: 100%;
+        }
+    }
+    
+    #text-container {
+        text-align: center;
+        font-size: 2.5em;
+        margin: auto; /* Center horizontally and vertically */
+        border: 0px solid rgb(215, 77, 246); /* Change 0px to your desired border thickness, if desired */
+        padding: 10px;
+        width: 400px;
+    }
+
+    /* CSS for buttons and modal */
+    #button-container {
+        position: fixed;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        width: 100%;
+    }
+    
+    .button {
+        margin: 10px;
+        font-size: 2em;
+		color: #333333;
+    }
+	
+    .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    }
+
+    .modal-content {
+        background-color: #fefefe;
+        margin: 15% auto; /* 15% from the top and centered */
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%; /* Could be more or less, depending on screen size */
+        font-size: 2.5em;
+    }
+
+    /* The Close Button */
+    .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
+</style>
+<style>
+    .right-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      transform: translateX(-50%);
+      padding: 10px 20px;
+      background-color: black;
+      color: white;
+      border: 2px solid black;
+      text-decoration: none;
+      font-family: sans-serif;
+      font-weight: bold;
+      z-index: 999999;
+    }
+    .right-button:hover {
+      background-color: #808080;
+    }
+</style>
+    </head>
+    <body>
+		<div id="title-container">JMLW's Tracery Generator</div>
+		<div id="subtitle-container">Isn't technology incredible?! Entirely transparent, a window into the world...</div>
+
+        <div id="text-container">Colorless green ideas sleep furiously.</div>
+
+        <div id="button-container">
+            <button class="button" onclick="displayAbout()">About</button>
+            <button class="button" onclick="displayString()">Regenerate</button>
+        </div>
+
+        <div id="myModal" class="modal">
+            <!-- Replace the statement below with your own artistic statement. -->
+            <div class="modal-content">
+                <span class="close">×</span>
+                <p> A basic Tracery project for ENG6819: Critical Making for Humanist Scholarship at University of Central Florida, meant to create a procedural text generator that is critical in some fashion. Read the subtitle, play around, maybe select some of your favorites.
+				</p> 
+            </div>
+        </div>
+    <script> /* In the var immediately below, copy-paste your Tracery/CBDQ JSON between the {} brackets */
+    var obj = {
+		"origin":["#chomsky#", "#tesnière#", "#glokaya#"],
+		"adjch":["#adjsuflow#", "#adj#"],
+		"chomsky":["#adjsuf# #adj# #nounpl# #verb# #adv##punc#"],
+		"tesnière":["The #adj# #noun# #verbpres# the #adjch# #noun1##punc#"],
+		"glokaya":["The #glokadj# #glokn1# #glokadv# #glokv1# the #glokn2# #conj# #glokv2# the #glokn3##punc#"],
+		"adjsuf":["Thoughtless", "Heartbreaking", "Quarrelsome", "Agreeable", "Unbecoming", "Reasonable", "Seemly", "Jittery", "Toothsome", "Numberless", "Ratty", "Daily", "Panicky", "Inexpensive", "Enchanting", "Fanatical", "Grateful", "Goofy", "Flimsy", "Empty", "Faulty", "Slippery", "Snotty", "Easy", "Dreary", "Foolish", "Brawny", "Equable", "Tangible", "Deeply", "Vivacious", "Combative", "Maddening", "Loutish", "Omniscient", "Delicious", "Scandalous", "Wanting", "Kindly", "Dusty", "Noisy", "Greedy", "Smiling", "Tremendous", "Energetic", "Awful", "Doubtful", "Selective", "Physical", "Enthusiastic", "Psychedelic", "Cynical", "Hellish", "Cultural", "Enormous", "Dashing", "Jobless", "Roomy", "Grumpy", "Needy", "Nutritious", "Parsimonious", "Aboriginal", "Eatable", "Unlikely", "Tiny", "Guttural", "Entertaining", "Screeching", "Sweltering", "Gruesome", "Peaceful", "Spurious", "Teeny-tiny", "Unwieldy", "Abnormal", "Secretive", "Purring", "Bouncy", "Informal", "Obsequious", "Ready", "Tasty", "Boundless", "Incredible", "Uttermost", "Superficial", "Sturdy", "Delirious", "Descriptive", "Wacky", "Befitting", "Voiceless", "Moaning", "Boorish", "Earsplitting", "Incandescent", "Rainy", "Annoying", "Oafish"],
+		"adjsuflow":["thoughtless", "heartbreaking", "quarrelsome", "agreeable", "unbecoming", "reasonable", "seemly", "jittery", "toothsome", "numberless", "ratty", "daily", "panicky", "inexpensive", "enchanting", "fanatical", "grateful", "goofy", "flimsy", "empty", "faulty", "slippery", "snotty", "easy", "dreary", "foolish", "brawny", "equable", "tangible", "deeply", "vivacious", "combative", "maddening", "loutish", "omniscient", "delicious", "scandalous", "wanting", "kindly", "dusty", "noisy", "greedy", "smiling", "tremendous", "energetic", "awful", "doubtful", "selective", "physical", "enthusiastic", "psychedelic", "cynical", "hellish", "cultural", "enormous", "dashing", "jobless", "roomy", "grumpy", "needy", "nutritious", "parsimonious", "aboriginal", "eatable", "unlikely", "tiny", "guttural", "entertaining", "screeching", "sweltering", "gruesome", "peaceful", "spurious", "teeny-tiny", "unwieldy", "abnormal", "secretive", "purring", "bouncy", "informal", "obsequious", "ready", "tasty", "boundless", "incredible", "uttermost", "superficial", "sturdy", "delirious", "descriptive", "wacky", "befitting", "voiceless", "moaning", "boorish", "earsplitting", "incandescent", "rainy", "annoying", "oafish"],
+		"adj":["good", "tart", "hollow", "penitent", "shy", "dependent", "young", "accurate", "wry", "half", "real", "learned", "hurt", "bent", "elegant", "resolute", "adhesive", "rampant", "rare", "like", "dark", "wet", "ignorant", "debonair", "uptight", "kaput", "public", "eager", "ill", "stiff", "taboo", "former", "striped", "overconfident", "yellow", "robust", "jumbled", "inquisitive", "ad hoc", "exuberant", "educated", "macabre", "unwritten", "severe", "unkempt", "large", "difficult", "tender", "civil", "clear", "torpid", "even", "spectacular", "polite", "rapid", "well-off", "legal", "tense", "green", "blue", "red", "black", "white", "purple", "pink", "cyan", "orange", "gray", "brown", "navy", "silver", "magenta", "teal", "lavender", "olive", "canary", "amber", "crimson", "burgundy", "maroon", "scarlet", "turquoise", "azure", "chartreuse", "jade", "golden", "violet", "mauve", "peach", "slate", "ash", "chestnut", "beige", "hazel", "umber", "bad", "old", "tall", "short", "slow"],
+		"noun":["hammer", "cake", "interest", "song", "maid", "toy", "scarf", "example", "egg", "jam", "curtain", "growth", "condition", "shock", "brick", "page", "ring", "breath", "field", "airport", "bucket", "smile", "harmony", "mountain", "toad", "secretary", "table", "arm", "cap", "minute", "mouse", "sea", "company", "crayon", "play", "impulse", "cause", "jelly", "bottle", "flock", "clam", "volleyball", "behavior", "hour", "toe", "tax", "limit", "room", "spade", "frame", "nerve", "carpenter", "lip", "straw", "voyage", "basketball", "rule", "expert", "sweater", "squirrel", "railway", "son", "appliance", "pancake", "sister", "roll", "star", "hair", "machine", "hall", "tub", "hose", "agreement", "pencil", "pot", "fairy", "level", "wire", "cow", "ear", "throat", "stream", "sound", "playground", "plastic", "house", "whip", "plane", "sky", "truck", "bedroom", "form", "train", "arm", "protest", "circle", "cannon", "use", "letter", "push"],
+		"noun1":["#noun#"],
+		"nounpl":["hammers", "cakes", "interests", "songs", "maids", "toys", "scarves", "examples", "eggs", "jams", "curtains", "growths", "conditions", "shocks", "bricks", "pages", "rings", "breaths", "fields", "airports", "buckets", "smiles", "harmonies", "mountains", "toads", "secretaries", "tables", "arms", "caps", "minutes", "mice", "seas", "companies", "crayons", "plays", "impulses", "causes", "jellies", "bottles", "flocks", "clams", "volleyballs", "behaviors", "hours", "toes", "taxes", "limits", "rooms", "spades", "frames", "nerves", "carpenters", "lips", "straws", "voyages", "basketballs", "rules", "experts", "sweaters", "squirrels", "railways", "sons", "appliances", "pancakes", "sisters", "rolls", "stars", "hairs", "machines", "halls", "tubs", "hoses", "agreements", "pencils", "pots", "fairies", "levels", "wires", "cows", "ears", "throats", "streams", "sounds", "playgrounds", "plastics", "houses", "whips", "planes", "skies", "trucks", "bedrooms", "forms", "trains", "arms", "protests", "circles", "cannons", "uses", "letters", "pushes"],
+		"verb":["bury", "cure", "escape", "stay", "command", "spare", "glue", "heat", "pull", "bounce", "hope", "scrape", "unite", "tempt", "disarm", "camp", "box", "measure", "strengthen", "brake", "confuse", "rub", "strap", "please", "note", "trace", "soothe", "join", "cross", "paddle", "fence", "drag", "arrange", "grab", "suspend", "boast", "squeeze", "visit", "enjoy", "saw", "settle", "travel", "possess", "object", "enter", "clip", "dare", "surprise", "tick", "consist", "roll", "belong", "sin", "realize", "skip", "overflow", "applaud", "spill", "fade", "harm", "curve", "man", "peep", "treat", "shop", "wash", "perform", "bolt", "obtain", "confess", "drain", "bruise", "fetch", "fail", "license", "scratch", "battle", "pause", "grip", "bless", "fasten", "screw", "dam", "mark", "matter", "murder", "sniff", "disappear", "count", "undress", "mend", "rush", "arrest", "lighten", "concentrate", "end", "repair", "waste", "satisfy", "zoom"],
+		"verbpres":["buries", "cures", "escapes", "stays", "commands", "spares", "glues", "heats", "pulls", "bounces", "hopes", "scrapes", "unites", "tempts", "disarms", "camps", "boxes", "measures", "strengthens", "brakes", "confuses", "rubs", "straps", "pleases", "notes", "traces", "soothes", "joins", "crosses", "paddles", "fences", "drags", "arranges", "grabs", "suspends", "boasts", "squeezes", "visits", "enjoys", "saws", "settles", "travels", "possesses", "objects", "enters", "clips", "dares", "surprises", "ticks", "consists", "rolls", "belongs", "sins", "realizes", "skips", "overflows", "applauds", "spills", "fades", "harms", "curves", "mans", "peeps", "treats", "shops", "washes", "performs", "bolts", "obtains", "confesses", "drains", "bruises", "fetches", "fails", "licenses", "scratches", "battles", "pauses", "grips", "blesses", "fastens", "screws", "dams", "marks", "matters", "murders", "sniffs", "disappears", "counts", "undresses", "mends", "rushes", "arrests", "lightens", "concentrates", "ends", "repairs", "wastes", "satisfies", "zooms"],
+		"adv":["properly", "steadily", "again", "queerly", "reluctantly", "dreamily", "miserably", "colorfully", "specifically", "warmly", "mockingly", "intently", "weakly", "quickly", "hungrily", "clearly", "normally", "really", "monthly", "yesterday", "vacantly", "knowledgeably", "rudely", "blindly", "fatally", "fully", "significantly", "unabashedly", "primarily", "recently", "coaxingly", "jaggedly", "positively", "forth", "probably", "bravely", "truly", "rapidly", "zestily", "needily", "interestingly", "questionably", "greedily", "sheepishly", "tomorrow", "slowly", "lazily", "briefly", "merrily", "yawningly", "occasionally", "happily", "obediently", "generally", "usually", "together", "similarly", "rarely", "coyly", "naturally", "almost", "basically", "repeatedly", "vainly", "knowingly", "brightly", "upbeat", "swiftly", "unnaturally", "uselessly", "righteously", "ahead", "anxiously", "painfully", "exactly", "kissingly", "currently", "overconfidently", "angrily", "sympathetically", "unexpectedly", "cruelly", "knavishly", "defiantly", "absentmindedly", "punctually", "diligently", "cleverly", "seriously", "courageously", "terrifically", "greatly", "hastily", "often", "anyway", "madly", "loftily", "upwardly", "commonly", "limply"],
+		"punc":[".", "!", "?", "...", "?!"],
+		"glokn1":["#glokn#"],
+		"glokn2":["#glokn#"],
+		"glokn3":["#glokn#"],
+		"glokv1":["#glokv#"],
+		"glokv2":["#glokv#"],
+		"glokadj":["brimulous", "scrobbly", "janksome", "fletheric", "dritchy", "snoverant", "glimpsy", "thrasky", "vornic", "trootish", "blimulent", "grispant", "flaunty", "drobular", "sprockish", "nillowy", "drabulent", "whimselly", "frantive", "clagulous", "spindry", "morbly", "zeltish", "quonky", "flustive"],
+		"glokadv":["slomptily", "grimbly", "froilishly", "drassily", "plentifously", "squenchily", "thrumbly", "vexlily", "crindily", "whiskerly", "twollishly", "sprockedly", "glummily", "flinterly", "drelvishly", "snorbly", "pindrily", "trankishly", "blustrawly", "flemptiously", "drimselly", "skoffishly", "queltedly", "zunderly", "morloply"],
+		"conj":["and", "but", "or", "yet"],
+		"glokn":["brimbles", "sprockets", "flindrums", "twaggles", "drimbles", "quostrels", "glanthers", "snorpets", "vexlings", "thrumples", "plentrels", "skindriffs", "zomplets", "frallocks", "clinterwigs", "grumbets", "whorlins", "drimptons", "squandrels", "twilpers", "flantrips", "morbets", "zindrels", "crimplings", "snettles"],
+		"glokv":["drangle", "splummit", "quorble", "frimster", "twindle", "grusket", "blanther", "skrellop", "drimbish", "woffen", "trindle", "snorvish", "plaskett", "whiffleth", "zordle", "clenter", "grummish", "sprollop", "flindge", "throzzle", "brimsel", "squindle", "glenter", "praggish", "whorbett"]
+	};
+
+function generateString(template) {
+    let placeholder = template.match(/#([^#]+)#/);
+    while (placeholder) {
+        let [fullMatch, key] = placeholder;
+        let choices = obj[key];
+        if (!choices) {
+            throw new Error(`No choices for key '${key}'`);
+        }
+        let choice = choices[Math.floor(Math.random() * choices.length)];
+        template = template.replace(fullMatch, generateString(choice));
+        placeholder = template.match(/#([^#]+)#/);
+    }
+    return template;
+}
+
+function displayString() {
+    var randomIndex = Math.floor(Math.random() * obj.origin.length);
+    document.getElementById('text-container').innerHTML = generateString(obj.origin[randomIndex]);
+}
+
+    displayString();  // call once at the beginning
+    setInterval(displayString, 30000);  // call every 30 seconds
+            // Get the modal
+            var modal = document.getElementById("myModal");
+
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() {
+                modal.style.display = "none";
+            }
+
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+
+            // Function to display the about modal
+            function displayAbout() {
+                modal.style.display = "block";
+            }
+		    function goFullscreen() {
+        if (document.documentElement.requestFullscreen) {
+            document.documentElement.requestFullscreen();
+        } else if (document.documentElement.mozRequestFullScreen) { // Firefox
+            document.documentElement.mozRequestFullScreen();
+        } else if (document.documentElement.webkitRequestFullscreen) { // Chrome, Safari and Opera
+            document.documentElement.webkitRequestFullscreen();
+        } else if (document.documentElement.msRequestFullscreen) { // IE/Edge
+            document.documentElement.msRequestFullscreen();
+        }
+    }
+
+	const mouseovers = [
+		"The only thing dividing you from people elsewhere in the world is distance. We are all human. Let's act like it.",
+		"Apes alone weak. Apes together strong.",
+		"Whether we live or die through their accelerationism is irrelevant; to them, we're already dead. Let's defy that view.",
+		"We have more in common with each other than those dictating our lives.",
+		"Technology isn't going away, but who it benefits can change. Less for-profit, more for-humanity."
+	]
+
+	const textElement = document.getElementById('text-container');
+	let originalText = textElement.textContent;
+	
+	function getRandomMouseover() {
+		const randomIndex = Math.floor(Math.random() * mouseovers.length);
+		return mouseovers[randomIndex];
+	}
+
+	textElement.addEventListener('mouseover', function() {
+		originalText = textElement.textContent;
+		textElement.textContent = getRandomMouseover();
+	});
+
+	textElement.addEventListener('mouseout', function() {
+		textElement.textContent = originalText;
+	});
+	
+</script>
+
+<a href="https://jmlwhittington.github.io/TT_CriticalMaking_Portfolio/Projects/" class="right-button">Go back</a>
+
+<iframe id="Lyllvt6g" frameborder="0" src="./grammar_files/translateSandbox.html" style="width: 0px; height: 0px; display: none;"></iframe></body></html>
