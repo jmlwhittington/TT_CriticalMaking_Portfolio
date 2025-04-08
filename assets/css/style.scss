@@ -4,12 +4,12 @@
 @import "{{ site.theme }}";
 
 :root {
-  --links: #5CA4A9;
-  --bodyColor: #9BC1BC;
+  --links: #800020;
+  --bodyColor: #333333;
 }
 
 body {
-  background-color: #E6EBE0;
+  background-color: #F5F5F5;
   font: 16px;
   color: var(--bodyColor);
 }
