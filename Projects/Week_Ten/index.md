@@ -1,4 +1,4 @@
 ---
 layout: default
-title: CV
+title: Week 10 - "What does an Appalachian game look like, ChatGPT?"
 ---
