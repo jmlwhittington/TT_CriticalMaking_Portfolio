@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CV
+title: Week 12 - p5.js Text Click Experiments
 ---
 
 ### Click here for the [original basic experiment](https://jmlwhittington.github.io/TT_CriticalMaking_Portfolio/Projects/Week_Twelve/sketch1.html)
