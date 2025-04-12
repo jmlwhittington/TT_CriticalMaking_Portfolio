@@ -3,6 +3,8 @@ layout: default
 title: Week 10 - "What does an Appalachian game look like, ChatGPT?" - All image generations
 ---
 
+Note that there are four sections: OpenAI ChatGPT, Microsoft Copilot, Adobe Firefly, and Stable Diffusion, for a total of 29 image generations.
+
 # [OpenAI ChatGPT](https://en.wikipedia.org/wiki/ChatGPT)
 ![](https://raw.githubusercontent.com/jmlwhittington/TT_CriticalMaking_Portfolio/refs/heads/main/assets/ChatGPT_1.webp)
 ![](https://raw.githubusercontent.com/jmlwhittington/TT_CriticalMaking_Portfolio/refs/heads/main/assets/ChatGPT_2.webp)
