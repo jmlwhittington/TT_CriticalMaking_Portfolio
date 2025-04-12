@@ -11,7 +11,7 @@ Generate me a montage of an Appalachian video game please.
 
 I'll try to create that.
 
-![](/assets/CP_1.png)
+![](https://raw.githubusercontent.com/jmlwhittington/TT_CriticalMaking_Portfolio/refs/heads/main/assets/CP_1.png)
 
 **You said:**
 
@@ -21,7 +21,7 @@ Can you give me another?
 
 I'll try to create that.
 
-![](/assets/CP_2.png)
+![](https://raw.githubusercontent.com/jmlwhittington/TT_CriticalMaking_Portfolio/refs/heads/main/assets/CP_2.png)
 
 **You said:**
 
@@ -31,7 +31,7 @@ One more please.
 
 Sure thing! I'll create another one for you.
 
-![](/assets/CP_3.png)
+![](https://raw.githubusercontent.com/jmlwhittington/TT_CriticalMaking_Portfolio/refs/heads/main/assets/CP_3.png)
 
 **You said:**
 
@@ -41,7 +41,7 @@ Can you design case covers for each of these three games now, side by side, in w
 
 I'll try to create that.
 
-![](/assets/CP_4.png)
+![](https://raw.githubusercontent.com/jmlwhittington/TT_CriticalMaking_Portfolio/refs/heads/main/assets/CP_4.png)
 
 **You said:**
 
@@ -51,7 +51,7 @@ That's not what I asked for. Please look back at the first three generations I h
 
 I'll try to create that.
 
-![](/assets/CP_5.png)
+![](https://raw.githubusercontent.com/jmlwhittington/TT_CriticalMaking_Portfolio/refs/heads/main/assets/CP_5.png)
 
 **You said:**
 
