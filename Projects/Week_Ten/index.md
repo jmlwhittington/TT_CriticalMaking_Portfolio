@@ -13,16 +13,16 @@ The tools in use were ChatGPT, Copilot, Adobe Firefly, and Stable Diffusion. Bet
 
 First up: ChatGPT, the most interesting. I asked it to generate three separate montages of an "Appalachian video game," with the third one more "cartoon-y" in the style of early ‘00s platformers on consoles like the PS2. (Note the "PS2" text that emerges in the third generation.) Here are the results:
 
-![](/assets/ChatGPT_1.webp)
-![](/assets/ChatGPT_2.webp)
-![](/assets/ChatGPT_3.webp)
+![](https://raw.githubusercontent.com/jmlwhittington/TT_CriticalMaking_Portfolio/refs/heads/main/assets/ChatGPT_1.webp)
+![](https://raw.githubusercontent.com/jmlwhittington/TT_CriticalMaking_Portfolio/refs/heads/main/assets/ChatGPT_2.webp)
+![](https://raw.githubusercontent.com/jmlwhittington/TT_CriticalMaking_Portfolio/refs/heads/main/assets/ChatGPT_3.webp)
 
 The light becoming the O in "coal" on the first generation's bottom left image caught my eye; I guess driving a truck into the mine (why?) past the "old mone" sign did too. (Also, is that an alpine jungle)? All in all, you can see themes of rustic, rural wilderness in all its majestic beauty (which I guess the train and rail helps exemplify?); mystery/horror/fear; and the stock "[mountain man](https://en.wikipedia.org/wiki/West_Virginia_Mountaineer)" (or "[redneck](https://en.wikipedia.org/wiki/Redneck)," a now-reclaimed term of pride much like "[hillbilly](https://en.wikipedia.org/wiki/Hillbilly)" that outsiders may nonetheless be castigated for using, but still get away with in other fashions).
 
 I then asked ChatGPT to design covers for these games. The first ones lacked titles, so I asked it to come up with its own and try again. Note the similar design structure across the first generation, and again between the first two covers in the second:
 
-![](/assets/ChatGPT_4.webp)
-![](/assets/ChatGPT_5.webp)
+![](https://raw.githubusercontent.com/jmlwhittington/TT_CriticalMaking_Portfolio/refs/heads/main/assets/ChatGPT_4.webp)
+![](https://raw.githubusercontent.com/jmlwhittington/TT_CriticalMaking_Portfolio/refs/heads/main/assets/ChatGPT_5.webp)
 
 The mystery/horror/fear is there, but all the majesty is gone! What gives, ChatGPT? I read this as a case (pun not intended) of marketing doing exactly what it's intended to do: attract an audience with what they know in limited space. Curiously, the first generation was rated T (for teen), while the others were all M (for mature), except the last one that is what I assume to be E (for everyone). The more plainly "scary" generation led to a more adult rating, while the cartoon-y one varied because of gaming's history with subverting its assumed trivial nature.
 
