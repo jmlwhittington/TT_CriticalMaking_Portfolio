@@ -71,7 +71,7 @@ I apologize for the confusion earlier. Let me explain my design decisions for th
   - **Design Elements:** This cover showcases a mysterious and eerie atmosphere with foggy mountains and hidden secrets. The protagonist is seen with a flashlight, hinting at exploration and discovery.
   - **Console Choice:** Xbox One was selected for its strong performance in handling complex graphics and creating a suspenseful gaming experience.
 - **Appalachian Legends (Nintendo Switch)**
-  - **Title: "Appalachian Legends"
+  - **Title:** "Appalachian Legends"
   - **Design Elements:** The cover highlights legendary creatures and folklore from the Appalachian region. It features vibrant colors and mythical elements, appealing to a wide range of players.
   - **Console Choice:** Nintendo Switch was chosen for its versatility and appeal to both casual and hardcore gamers, making it a perfect fit for a game based on legends and folklore.
 
