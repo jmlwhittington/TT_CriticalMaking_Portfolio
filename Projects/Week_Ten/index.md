@@ -67,11 +67,11 @@ ChatGPT demonstrated a blatantly biased record of several Appalachian features. 
 
 On that note, something to put in conversation with Costanza-Chock's chapter this week is Linsey McGoey's recent article, "[Hierarchies of White Ignorance and Reciprist Epistemology](https://mediatheoryjournal.org/2024/12/31/linsey-mcgoey-hierarchies-of-white-ignorance-and-reciprist-epistemology/)." Of her "three chief problems with the concept of ‘white ignorance,'" the first and third come to mind:
 
-1. It can homogenize different forms of white privilege and obscure attention to different forms of class entitlement and class domination.
+> 1. It can homogenize different forms of white privilege and obscure attention to different forms of class entitlement and class domination.
 
-. . .
+> . . .
 
-3. Ironically, it can flatter whites, perpetuating spurious assumptions of epistemic supremacy that important anti-racist scholarship seeks to dismantle.
+> 3. Ironically, it can flatter whites, perpetuating spurious assumptions of epistemic supremacy that important anti-racist scholarship seeks to dismantle.
 
 What is McGoey's solution? "In contrast to binary epistemology, we need something that shall be termed reciprist epistemology, defined as anti-monolithic thought that embraces the hybridity of racialized, classed identities."
 
