@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Week 10 - "What does an Appalachian game look like, ChatGPT?"
+title: Week 10 - "What does an Appalachian game look like, ChatGPT?" - Copilot chat log
 ---
 
 **You said:**
